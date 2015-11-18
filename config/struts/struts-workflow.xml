@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	<package name="workflow" namespace="/" extends="struts-default">
+  		<action name="workFlowAction_*" method="{1}" class="workFlowAction">
+  			<result name="workFlow_formTemplateList">WEB-INF/jsp/workflow/workFlow_formTemplateList.jsp</result>
+  			<result name="submitUI">WEB-INF/jsp/workflow/submitUI.jsp</result>
+  		</action>
+  	</package>
+</struts>	

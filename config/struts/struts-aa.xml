@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  <package name="aa" namespace="/" extends="struts-default">
+  	<action name="a_*" method="{1}" class="cn.itcast.oa0909.struts2.action.AAction">
+  		<result name="aa" type="chain">a_bb</result>
+  		<result name="bb">WEB-INF/jsp/aa.jsp</result>
+  	</action>
+  </package>
+</struts>	

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="itcastoa0909_annotation"
+  id="myeclipse.1354756433203"
+  context-root="/itcastoa0909_annotation"
+  j2ee-spec="5.0"
+  archive="itcastoa0909_annotation.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
